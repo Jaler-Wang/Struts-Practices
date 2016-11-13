@@ -32,6 +32,7 @@ public class ViewByIdAction extends ActionSupport {
     public String execute() throws Exception {
         System.out.println("recipe id is " + recipe);
         return SUCCESS;
+        
     }
 
     @Action(value="view-by-id-process",
