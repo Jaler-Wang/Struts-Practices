@@ -14,6 +14,7 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
         <!--  Struts 2 -->
         <dependency>
             <groupId>org.apache.struts</groupId>
@@ -54,6 +55,12 @@
         <dependency>
             <groupId>com.oracle.adf</groupId>
             <artifactId>servlet</artifactId>
+            <version>12.1.3-0-0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.oracle.adf</groupId>
+            <artifactId>jstl</artifactId>
             <version>12.1.3-0-0</version>
         </dependency>
     </dependencies>

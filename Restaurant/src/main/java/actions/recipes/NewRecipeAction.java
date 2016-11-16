@@ -20,6 +20,10 @@ public class NewRecipeAction extends ActionSupport{
 
     @Override
     public void validate() {
+        if(recipe == null){
+            addFieldError("recipe.name", getText("recipe.name"));
+            return;
+        }
         if(StringUtils.isBlank(recipe.getName())){
             addFieldError("recipe.name", getText("recipe.name"));
         }
