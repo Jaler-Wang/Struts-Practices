@@ -10,11 +10,18 @@
 <html>
 <head>
     <title>i18n</title>
+    <script type="text/javascript">
+        var jsFromTag1 = '<s:property value="javascriptExample"
+            escapeJavaScript="false"/>';
+        document.writeln(jsFromTag1);
+    </script>
 </head>
 <body>
 <dl>
     <dt>get text:</dt><br/>
     <dd><s:property value="text1"/> </dd>
 </dl>
+<s:property value="testValue" escape="false"/>
+<s:property value="javascriptExample"/>
 </body>
 </html>

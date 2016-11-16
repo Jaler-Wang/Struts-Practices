@@ -12,7 +12,8 @@ import org.apache.struts2.convention.annotation.Result;
  */
 public class TextExampleAction extends ActionSupport implements TextInterface {
     private static Log log = LogFactory.getLog(TextExampleAction.class);
-
+    public String testValue = "This string's <b>HTML</b>-ish";
+    public String javascriptExample = "I haven't got enough \"quotes\".";
     private String text1;
 
     public String getText1() {
