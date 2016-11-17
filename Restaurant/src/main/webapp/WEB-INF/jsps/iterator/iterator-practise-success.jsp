@@ -34,5 +34,13 @@
             </tr>
         </s:iterator>
     </table>
+<br/>
+    <s:generator val="'1, 2, 3, 4'" separator="," var = "test">
+        <ul>
+            <s:iterator value="test">
+                <li><s:property/></li>
+            </s:iterator>
+        </ul>
+    </s:generator>
 </body>
 </html>
